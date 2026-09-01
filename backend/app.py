@@ -9,7 +9,7 @@ next_id = 1
 
 @app.route("/")
 def home():
-    return {"message": "Task Manager application is running"}
+    return {"message": "Task Manager backend is running"}
 
 
 @app.route("/api/tasks", methods=["POST"])
